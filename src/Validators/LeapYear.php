@@ -5,16 +5,19 @@ namespace PolarBear\PolarValidator\Validators;
 use PolarBear\PolarValidator\Validator;
 
 /**
- * class isLeapYear
+ * class LeapYear
  *
  * @author Alejandro A. De Luca <tury3001@gmail.com>
+ * @link https://en.wikipedia.org/wiki/Leap_year
  */
 class LeapYear implements Validator
 {
 
     /**
-     * Method to override
+     * Validate a leap year
+     *
      * @param $value string|int|float  Value to validate
+     *
      * @return bool
      */
     public function validate($value)

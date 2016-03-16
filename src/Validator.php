@@ -9,7 +9,6 @@ namespace PolarBear\PolarValidator;
  *
  * @todo Max for numbers
  * @todo Min for numbers
- * @todo email
  * @todo url
  * @todo OnlyLetters
  * @todo OnlyLettersWithSpaces
@@ -18,6 +17,7 @@ namespace PolarBear\PolarValidator;
  * @todo OnlyAlphaNumeric
  * @todo DNI for argentinean unique national document
  * @todo CUIT
+ * @todo HexadecimalColor
  *
  *
  * @author Alejandro A. De Luca <adeluca@polarbear.com.ar>

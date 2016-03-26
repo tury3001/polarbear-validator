@@ -15,6 +15,8 @@ class EmailTest extends PHPUnit_Framework_TestCase
 {
     /**
      * Test email validation
+     *
+     * @param $value
      * @dataProvider validEmailProvider
      */
     public function testValidEmail($value)
@@ -28,6 +30,8 @@ class EmailTest extends PHPUnit_Framework_TestCase
 
     /**
      * Test email validation
+     *
+     * @param $value
      * @dataProvider invalidEmailProvider
      */
     public function testInvalidEmail($value)
@@ -75,5 +79,4 @@ class EmailTest extends PHPUnit_Framework_TestCase
             array("london@.com")
         );
     }
-
 }
